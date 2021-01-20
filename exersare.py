@@ -1,0 +1,13 @@
+x=[3,6,9,5,2,15,20]
+print(x)
+y=sorted(x)
+print(y)
+x.sort(reverse=True)
+print(x)
+print(len(x))
+print(max(x))
+print(min(x))
+x.append(111)
+print(x)
+x[1]=222
+print(x)
